@@ -15,6 +15,26 @@ To establish true sovereignty on an edge node or Linux environment, the defensiv
 
     Merkle-Linked Audit Ledgers: Security events and state transitions are chained together into local cryptographic Merkle trees. If an adversary manages to slip in and alter history, the mathematical proof breaks instantly, providing absolute tamper-evident verification.
 
+    Deception Ports & Port Watchers: Active listeners bound across sensitive or unassigned ports that act as immediate tripwires, logging probe signatures the second an unauthorized scanner or attacker knocks.
+
+Network Tarpits: Active defense mechanics designed to slow down, throttle, and exhaust automated scanners and brute-force tools by feeding them artificially delayed, infinite data streams—wasting their resources while trapping their connection states.
+
+The Storage Guards & Power-Aware Maintenance: Background loops designed to monitor disk/storage health and handle maintenance tasks cleanly without exposing vulnerabilities.
+
+Network Threat Toggling: The ability to dynamically kill or isolate external/internal interfaces the moment an escalation threshold is crossed.
+
+The Escalation Matrix: A multi-tier response system that graduates from logging and port-watching alerts all the way up to full process freezing and network blacklisting based on the severity of the intrusion.
+
+Credential Vault Canary Generators: Designed to drop fake credentials and tokens that act as tripwires, immediately flagging any internal or external process attempting to harvest them
+
+DNS Sinkhole Sentinels: Integrated local DNS tracking and blocking to catch rogue callback attempts or command-and-control traffic before requests leave the enclave
+
+Lateral Network Scanners & Escape Probes: Active offensive modules used to test internal posture, map out misconfigurations, and simulate container escape vectors to patch vulnerabilities proactively
+
+Automated Forensic Memory Snapshotters: Daemons programmed to dump volatile memory states instantly upon a critical security breach so you retain exact forensic artifacts without writing persistent logs to disk
+
+Webhook Dispatchers: Real-time alert handlers configured to push immediate telemetry updates and breach notifications outward through custom webhooks
+
 2. The Offensive Core: Stochastic Canaries and Active Countermeasures
 
 A true security fortress cannot just sit behind a shield. Micro-SOC was built to be an active, living organism that employs aggressive, automated countermeasures:
